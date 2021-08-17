@@ -71,5 +71,6 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
         errorMessage.style.textAlign = 'center';
         errorMessage.style.paddingTop = '20px';
         document.getElementById('deposit-withdraw').appendChild(errorMessage);
+        errorMessage.innerText = '';
     }
 })
